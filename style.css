@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: hsl(218, 23%, 16%);
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: .3rem;
+    font-weight: 200;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: hsl(193, 38%, 86%);
+    font-weight: 500;
+}
+
+.container{
+    width: 450px;
+    margin: 200px auto;
+    background-color: hsl(217, 19%, 24%);
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.head{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.content{
+    margin-bottom: 30px;
+}
+
+.divider{
+    margin: 25px auto;
+}
+
+.divider img{
+    width: 100%;
+}
+
+.icon{
+    position: absolute;
+    bottom: -7%;
+    left: 45%;
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    height: 45px;
+    line-height: 20px;
+    justify-content: center;
+    transition: .5s;
+}
+
+.icon:hover{
+   box-shadow: 0px 0px 20px 0px hsl(150, 100%, 66%);
+   cursor: pointer;
+  
+}
+
+footer{
+    position: absolute;
+    left: 5px;
+    bottom: -80px;
+   
+}
+
+footer p{
+    font-size: 13px;
+    width: 450px;
+}
+
+footer p span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: hsl(150, 100%, 66%);
+    font-style: italic;
+}
